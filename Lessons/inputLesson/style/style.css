@@ -1,0 +1,11 @@
+input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.myBtn{
+    width: 300px;
+    height: 40px;
+    background-image: linear-gradient(to bottom right, red , white );
+    color: white;
+}

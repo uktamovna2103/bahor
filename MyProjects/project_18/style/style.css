@@ -1,0 +1,36 @@
+
+.card:hover{
+  transition: 1s;
+  box-shadow: 20px 16px 40px rgba(1, 102, 145, 0.5);
+}
+
+
+.card{
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 11px;
+  box-shadow: 10px 8px 20px rgba(1, 102, 145, 0.1);
+}
+.card img{
+  width: 50px;
+  margin-left: 70px;
+}
+button{
+  width: 150px;
+  height: 40px;
+  color: white;
+  background: #8B2860;
+  /*outline-color: red;*/
+  border-radius: 30px;
+  /*margin-left: 30px;*/
+  /*justify-content: center;*/
+/*text-align: center;*/
+}
+p{
+  padding-top: 20px;
+  color: #8B2860;
+}
+
+
+

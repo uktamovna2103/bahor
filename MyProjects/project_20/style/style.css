@@ -1,0 +1,178 @@
+.container-fluid{
+    overflow: hidden;
+    height: 75vh;
+    background-color: #536DFD;
+}
+.container-fluid2{
+    overflow: hidden;
+}
+.container3{
+    background-color: #F1F2F6;
+    height: 350px;
+}
+.container3 .col-md-6 button{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    justify-items: center;
+    margin-left: 60%;
+    margin-top: 15%;
+
+}
+
+.col-md-7 input{
+    width:60%;
+    height:50px;
+    color: rgba(157, 167, 187, 0.5);
+}
+.container-fluid .card10{
+    /*display: flex;*/
+    height: 180px;
+    width: 400px;
+    box-shadow: 0 10px 30px rgba(7, 21, 101, 0.18);
+}
+.square5{
+    color: white;
+    background-color: #FFB800;
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.square6 {
+    color: white;
+    background-color:#10C8A0;
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.square7 {
+    color: white;
+    background-color:#11BDF3;
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.square8 {
+    color: white;
+    background-color:red;
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.square10{
+    border-radius: 50%;
+    position: absolute;
+    background-color:#FFD401;
+    height: 600px;
+    width: 600px;
+    margin-bottom:100px;
+    margin-left: 65%;
+}
+
+
+h2{
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.container2 .card{
+    box-shadow: 5px 10px 10px slategrey;
+}
+.card image{
+    width: 100%;
+}
+.card:hover{
+    transition: 1s;
+    box-shadow: 10px 20px 20px slategrey;
+    transform: scale(1.03);
+}
+.square1{
+    height: 25px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    background-color:  #10C8A0;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.square2{
+    height: 25px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    background-color:  #11BDF3;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.square3{
+    height: 25px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    background-color:#EB3B3B;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.square4{
+    height: 25px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    background-color:#FFE600;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card3{
+    width: 350px;
+    height: 400px;
+}
+.card1{
+    width: 540px;
+    height: 400px;
+}
+.right-card {
+    transform: translateX(140px);
+    /*margin-left: 10px;*/
+}
+.col-md-2 img{
+    width: 26.67px;
+    height: 24px;
+    display: flex;
+}
+.imageCol{
+    height: 600px;
+    width: 500px;
+    margin-bottom: 200px;
+    border-radius: 50%;
+    background-color: #FFE600;
+}
+.container-fluid .col-md-5 .imageCol{
+    width: 100%;
+
+   animation: Box 6s linear infinite;
+}
+@keyframes Box {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

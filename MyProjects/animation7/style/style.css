@@ -1,0 +1,74 @@
+.container{
+    width: 300px;
+    height: 900px;
+
+    margin-left: 30%
+}
+
+
+.circle1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #005cbf;
+    margin-left: 150px;
+    animation: Animation 1.5s linear ;
+
+}
+
+@keyframes Animation {
+    0%{
+        margin-top: 0;
+    }
+    50%{
+        margin-top: 150px;
+        opacity: 1;
+
+    }
+    100%{
+        margin-top: 300px;
+        opacity: 0;
+
+    }
+}
+
+
+.splash{
+    left: 590px;
+    top: 40%;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    position: absolute;
+    animation: slashIt 1s linear ;
+    animation-delay: 1.4s;
+
+}
+
+
+.splash:nth-child(1){
+    animation-delay: 1.6s;
+}
+.splash:nth-child(2){
+    animation-delay: 1.8s;
+}
+.splash:nth-child(3){
+    animation-delay: 2s;}
+@keyframes slashIt {
+    0%{
+        transform: scale(1) rotateX(60deg);
+        opacity:1.1;
+        background-color: dodgerblue ;
+    }
+    50%{
+        transform: scale(3) rotateX(60deg);
+        opacity: 0.1;
+        background-color: dodgerblue ;
+    }
+    100%{
+        transform: scale(3) rotateX(60deg);
+        background-color: dodgerblue ;
+        opacity: 0;
+    }
+}

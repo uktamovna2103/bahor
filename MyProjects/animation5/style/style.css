@@ -1,0 +1,102 @@
+body{
+    background-color: beige;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.container{
+    display: flex;
+}
+.circle1{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #005cbf;
+    margin-top: 30%;
+    margin-left: 30%;
+    margin-right: 10px;
+    animation: Animation 1s ease-in-out infinite;
+    animation-delay: 0.875s;
+}
+
+.circle2{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:red;
+    margin-top: 30%;
+    margin-right: 10px;
+    animation: Animation 1s ease-in-out infinite;
+    animation-delay: 0.75s;
+}
+.circle3{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:yellow;
+    margin-top: 30%;
+    margin-right: 10px;
+    animation: Animation 1s ease-in-out infinite;
+    animation-delay: 0.625s;
+}
+.circle4{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:darkblue;
+    margin-top: 30%;
+    margin-right: 10px;
+    animation: Animation 1s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+.circle5{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:darkgreen;
+    margin-top: 30%;
+    margin-right: 10px;
+    animation: Animation 1s ease-in-out infinite;
+    animation-delay: 0.375s;
+}
+.circle6{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:orange;
+    margin-top: 30%;
+    margin-right: 10px;
+    animation: Animation 1s ease-in-out infinite;
+    animation-delay: 0.25s;
+}
+.circle7{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:deeppink;
+    margin-top: 30%;
+    margin-right: 10px;
+    animation: Animation 1s ease-in-out infinite;
+    animation-delay: 0.125s;
+}
+.circle8{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:green;
+    margin-top: 30%;
+    margin-right: 10px;
+    animation: Animation 1s ease-in-out infinite;
+}
+
+
+@keyframes Animation {
+    0%{
+     margin-top: 0;
+    }
+    50%{
+        margin-top: 300px;
+    }
+    100%{
+       margin-top: 0;
+    }
+}

@@ -1,0 +1,71 @@
+.animationCard {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: darkred;
+    animation-name: loading;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+
+@keyframes cardAnimation {
+    /*from{*/
+    /*    background-color: #0b2e13;*/
+    /*    transform: translateX(0px) rotate(0deg);*/
+    /*}*/
+    /*to{*/
+    /*    background-color: darkred;*/
+    /*    transform: translateX(500px) rotate(360deg);*/
+    /*}*/
+
+    /*0% {*/
+    /*    transform:  rotate(0);*/
+    /*    background-color: #0b2e13;*/
+    /*}*/
+
+    /*50%{*/
+    /*    transform:  rotate(360deg);*/
+    /*    background-color: green;*/
+    /*    margin-left: 300px;*/
+    /*}*/
+
+    /*100%{*/
+    /*    transform:  rotate(0);*/
+    /*    background-color: #0b2e13;*/
+    /*    margin-right: 300px;*/
+    /*    color: white;*/
+    /*}*/
+}
+@keyframes loading {
+    0%{
+        background-color: #1c7430;
+        left:0;
+        top:0;
+    }
+    25%{
+        background-color: green;
+        left:200px;
+        top:0;
+    }
+    50%{
+        background-color: #0f6674;
+        left:200px;
+        top:200px;
+
+    }
+    75%{
+        background-color: #005cbf;
+        left:0;
+        top:200px;
+
+    }
+    100%{
+        background-color: #1c7430;
+        left:0;
+        top:0;
+    }
+}

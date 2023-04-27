@@ -1,0 +1,33 @@
+.container{
+    padding-top: 50px;
+}
+.col-md-6{
+    padding-top: 50px;
+}
+.box{
+    display: none;
+}
+
+.card{
+    text-align: center;
+    height: 400px;
+    background-color: #34ce57;
+}
+.container-fluid {
+    margin-top: 50px;
+    background-color: black;
+    height: 60vh;
+}
+@media only screen and (max-device-width: 480px) {
+
+.box {
+    display: block;
+    padding-top: 50px;
+}
+    .col-md-6{
+        display: none;
+    }
+    .container-fluid{
+        height: 30vh;
+    }
+}

@@ -1,0 +1,666 @@
+.navbar {
+    position: absolute;
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+
+    /* white */
+    background: #FFFFFF;
+    /* shawod2_kichik */
+    box-shadow: 0px 2px 5px rgba(209, 209, 212, 0.05);
+
+}
+.container1{
+    background-color:  #F1F2F6;
+    width: 1440px;
+    height: 1360px;
+}
+.container1 .col1 input{
+    position: absolute;
+    width: 330px;
+    height: 40px;
+    left: 15px;
+    top: 84px;
+    background: #FFFFFF;
+    border: #9DA7BB;
+    color: black;
+    border-radius: 4px;
+}
+.container1 .card1{
+    position: absolute;
+    width: 330px;
+    height: 1000px;
+    left: 15px;
+    top: 140px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.container1 .card1 h5{
+    width: 85px;
+    height: 14px;
+    margin-left: 16px;
+    margin-top:10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #2E2E2E;
+
+}
+.container1 .card1 .Div img{
+    width: 70px;
+    margin-left: 11px;
+}
+.container1 .card1 p{
+    width: 258px;
+    height: 34px;
+    left: 114px;
+    top: 256px;
+    margin-left: -20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #2E2E2E;
+
+}
+.container1 .card1 h6{
+    width: 295px;
+    height: 28px;
+    margin-top: -10px;
+    margin-left: -20px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #606060;
+}
+.container1 .col-6 .image1{
+    position: absolute;
+    width: 690px;
+    height: 320px;
+    left: 15px;
+    top: 84px;
+    border-radius: 4px 0px 0px 4px;
+}
+.container1 .col-6 .image2{
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left:291px;
+    top: 190px;
+    border-radius: 50%;
+    background: #2E2E2E;
+    opacity: 0.3;
+}
+.container1 .card2{
+    position: absolute;
+    width: 330px;
+    height: 496px;
+    left:15px;
+    top: 84px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 4px 4px 0px;
+}
+.container1 .card2 .square{
+    position: absolute;
+    width: 94px;
+    height: 22px;
+    left:24px;
+    top: 24px;
+    background: #10C8A0;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+.container1 .card2 h6{
+    position: absolute;
+    width: 103px;
+    height: 14px;
+    left:30px;
+    top:84px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #9DA7BB;
+
+}
+.container1 .card2 h4{
+   margin-left:14px;
+    margin-top: 100px;
+}
+.container1 .card2 h5{
+    margin-left:34px;
+    margin-top: 80px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2E2E2E;
+
+}
+.container1 .card3 .container {
+    display: block;
+    position: relative;
+    padding-left:70px;
+    /*margin-top: 2px;*/
+    padding-top: 10px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    font-size: 22px;
+    background-color:#F8F8FA;
+    height: 48px;
+
+}
+
+/* Hide the browser's default checkbox */
+.container1 .card3 .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.container1 .card3 .checkmark {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    /*padding-top: 10px;*/
+    height: 20px;
+    width:20px;
+    background-color: #eee;
+    /*background-color: black;*/
+    border-radius: 2px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #536DFD;
+    /*background-color: white;*/
+
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container1 .card3 .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container1 .card3 .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    /*transform: rotate(45deg);*/
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.container1 .card3 span{
+    /*position: absolute;*/
+    width: 157px;
+    height: 19px;
+    left: -10px;
+    top: 23px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2E2E2E;
+
+}
+.container1 .card2 .Button{
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 40px;
+    top: 421px;
+    background: #536DFD;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+.container1 .card2 .Button:hover{
+    color:black;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.container1 .card4{
+    position: absolute;
+    width: 330px;
+    height: 496px;
+    left:15px;
+    top: 630px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 4px 4px 0px;
+}
+.container1 .card4 h4{
+    position: absolute;
+    width: 226px;
+    height: 19px;
+    left:34px;
+    top:24px;
+    font-size: 22px;
+    line-height: 19px;
+    color: #2E2E2E;
+}
+.container1 .card4 button{
+    /*box-sizing: border-box;*/
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 50px;
+    border-radius: 50%;
+    top:20px;
+    opacity: 0.8;
+}
+
+.container1 .card4 button img{
+   width: 15px;
+    height: 15px;
+    margin-top: -10px;
+    margin-left: -5px;
+}
+.container1 .card4 .hr{
+    position: absolute;
+    width: 282px;
+    height: 0px;
+    left:24px;
+    top: 67px;
+    opacity: 0.3;
+    border: 1px solid #9DA7BB;
+}
+.container1 .card4 .card1{
+    position: absolute;
+    width: 134px;
+    height: 150px;
+    left:24px;
+    top:96px;
+    background: #2E2E2E;
+    opacity: 1.1;
+    border-radius: 4px;
+}
+.container1 .card4 .card1:hover{
+    box-shadow: 9px 18px 18px rgba(0, 0, 0, 0.1);
+}
+.container1 .card4 .card2:hover{
+    box-shadow: 9px 18px 18px rgba(0, 0, 0, 0.1);
+}
+
+.container1 .card4 .card2{
+    position: absolute;
+    width: 134px;
+    height: 150px;
+    left:24px;
+    top:260px;
+    background: #2E2E2E;
+    opacity: 1.1;
+    border-radius: 4px;
+}
+.container1 .card4 .card .image412{
+    width: 54px;
+    height: 54px;
+    margin-left: 40px;
+    margin-top:-115px;
+    border:3px solid white;
+    border-radius: 50%;
+
+}
+.container1 .card4 .BTn{
+    color: #536DFD;
+    margin-top: 430px;
+}
+.container1 .card4 .BTn:hover{
+     color: red;
+}
+.container1 .middle h3{
+    position: absolute;
+    width: 438px;
+    height: 29px;
+    left:15px;
+    top: 428px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2E2E2E;
+
+}
+.container1 .middle .btn1{
+    position: absolute;
+    width: 78px;
+    height: 23px;
+    left: 7px;
+    top: 434px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+.container1 .middle .btn1:hover{
+    color:blue;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.container1 .middle .col-5 button{
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left:-180px;
+    top: 5px;
+    color: white;
+    background: #536DFD;
+    border-radius: 2px;
+    border: 0;
+}
+.container1 .middle .col-5 button:hover{
+    color:black;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container1 .middle .w3{
+
+   margin-left: 10px;
+
+
+}
+
+ .container1 .middle .w3 button{
+     width: 165px;
+     height: 45px;
+     border: 0;
+     background: #FFFFFF;
+     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+     border-radius: 4px;
+
+
+ }
+.container1 .middle .w3 button:hover{
+    background-color: #F6F6F6;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+}
+.container1 .middle .Card1{
+    width: 671px;
+    height: 243px;
+    margin-left: 10px;
+    margin-top:80px;
+}
+.container1 .middle .Card1 h1{
+    position: absolute;
+    width: 193px;
+    height: 86px;
+    left: 50px;
+    top: 20px;
+    font-size: 72px;
+    line-height: 86px;
+    color: #2E2E2E;
+}
+.container1 .middle .Card1 p{
+    margin-top: 20px;
+}
+
+.container1 .middle .Card1 img{
+    margin-top: 120px;
+    margin-left: 25px;
+}
+.container1 .middle .Card1 h6{
+    position: absolute;
+    width: 189px;
+    height: 14px;
+    left: 45px;
+    top: 160px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2E2E2E;
+
+}
+.container1 .middle .Card1 .row4 img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 30px;
+    top: -98px;
+
+}
+.container1 .middle .Card1 .row5 img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 30px;
+    top: -98px;
+
+}
+.container1 .middle .Card1 .row6 img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 30px;
+    top: -98px;
+
+}
+.container1 .middle .Card1 .row7 img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 30px;
+    top: -98px;
+
+}
+.container1 .middle .Card1 .row8 img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 30px;
+    top: -98px;
+
+}
+.container1 .middle .Card1 .row4 .col-7 h6{
+    position: absolute;
+    width: 10px;
+    height: 19px;
+    left:40px;
+    top:20px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2F2F2F;
+}
+.container1 .middle .Card1 .row5 .col-7 h6{
+    position: absolute;
+    width: 10px;
+    height: 19px;
+    left:40px;
+    top:20px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2F2F2F;
+}
+.container1 .middle .Card1 .row6 .col-7 h6{
+    position: absolute;
+    width: 10px;
+    height: 19px;
+    left:40px;
+    top:20px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2F2F2F;
+}
+.container1 .middle .Card1 .row7 .col-7 h6{
+    position: absolute;
+    width: 10px;
+    height: 19px;
+    left:40px;
+    top:20px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2F2F2F;
+}
+.container1 .middle .Card1 .row8 .col-7 h6{
+    position: absolute;
+    width: 10px;
+    height: 19px;
+    left:40px;
+    top:20px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2F2F2F;
+}
+.container1 .middle .Card1 .line{
+    position: absolute;
+    width: 188px;
+    height: 5px;
+    left:-25px;
+    top:30px;
+
+    background: #1DD1A1;
+    border-radius: 6px;
+}
+.container1 .middle .Card1 .line1{
+    position: absolute;
+    width: 347px;
+    height: 5px;
+    left:-25px;
+    top:30px;
+
+    background:  #0085FF;
+    border-radius: 6px;
+}
+.container1 .middle .Card1 .line2{
+    position: absolute;
+    width: 123px;
+    height: 5px;
+    left:-25px;
+    top:30px;
+
+    background: #FFC02E;
+    border-radius: 6px;
+}
+.container1 .middle .Card1 .line3{
+    position: absolute;
+    width: 23px;
+    height: 5px;
+    left:-25px;
+    top:30px;
+    background:#D0021B;
+    border-radius: 6px;
+}
+.container1 .middle .Card1 .line4{
+    position: absolute;
+    width:5px;
+    height: 5px;
+    left:-25px;
+    top:30px;
+    background:#F4144A;
+    border-radius: 6px;
+}
+.container1 .middle .Card1 .row5{
+    margin-top: -15px;
+}
+.container1 .middle .Card1 .row6{
+    margin-top: -15px;
+}
+.container1 .middle .Card1 .row7{
+    margin-top: -15px;
+}
+.container1 .middle .Card1 .row8{
+    margin-top: -15px;
+}
+.container1 .middle .container3 span{
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    left:30px;
+    top: 630px;
+    font-size:18px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #2E2E2E;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container2{
+    height: 400px;
+    background-color:white;
+}
+.container2 .col-3 h4{
+    margin-top: 70px;
+    margin-left: 170px;
+}
+.container2 .col-3 ul{
+    margin-top: -10px;
+    margin-left: 125px;
+    font-weight: 90;
+    font-size:14px;
+    /*padding-bottom:10px;*/
+    color: #9DA7BB;
+    list-style-type: none;
+}
+.container2 .col-2 h4{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.container2 .col-2 ul{
+    margin-top: -10px;
+    margin-left:10px;
+    font-weight: 90;
+    font-size:14px;
+    color:#9DA7BB;
+    list-style-type: none;
+}
+
+.container2 .col3 h5{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.container2 .col3 ul{
+    margin-top: -10px;
+    margin-left:10px;
+    font-weight: 90;
+    font-size:14px;
+    color: #9DA7BB;
+    list-style-type: none;
+}
+.container2 .col-4 h4{
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+
+}
+.container2 .col-4 ul{
+    margin-top: -10px;
+    margin-left:-35px;
+    font-weight: 90;
+    /*font-size:18px;*/
+    color:#9DA7BB;
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 24px;
+}
+.container2 button{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left:15px;
+    top: 280px;
+    background: #9DA7BB;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+}
+.container2 button:hover{
+    color:black;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.1);
+}
+

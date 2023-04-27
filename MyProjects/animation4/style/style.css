@@ -1,0 +1,91 @@
+body{
+    background-color: mediumpurple;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: gray;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 20%;
+    overflow: hidden;
+}
+.div{
+
+    width: 100px;
+    height: 90px;
+    margin-left: 4px;
+    margin-top: 40px;
+
+}
+
+@keyframes Animation {
+    0%{
+        transform: scale(1) rotate(45deg);
+        background-color: white;
+    }
+    10%{
+        transform: scale(1.5)rotate(45deg) ;
+        background-color: red;
+    }
+    20%{
+        transform: scale(1)rotate(45deg) ;
+        background-color: white;
+    }
+
+    25%{
+        transform: scale(1) rotate(45deg);
+        background-color: white;
+    }
+    50%{
+        transform: scale(1.5)rotate(45deg) ;
+        background-color: red;
+    }
+    60%{
+        transform: scale(1)rotate(45deg) ;
+        background-color: white;
+    }
+    80%{
+        transform: scale(1) rotate(45deg);
+        background-color: white;
+    }
+    90%{
+        transform: scale(1.5)rotate(45deg) ;
+        background-color: red;
+    }
+    100%{
+        transform: scale(1)rotate(45deg) ;
+        background-color: white;
+    }
+}
+.card{
+  width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-top: 29px;
+    margin-left: 30px;
+    transform: rotate(45deg);
+    animation: Animation 2s linear infinite;
+}
+.circle1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top:-41px ;
+    margin-left: 18px;
+    animation: Animation 2s linear infinite;
+
+}
+.circle2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top:-31px ;
+    margin-left: 43px;
+    animation: Animation 2s linear infinite;
+}

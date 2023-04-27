@@ -1,0 +1,41 @@
+body{
+    background-color: #2a9d8f;
+    display: flex;
+    justify-content: center;
+ align-content: center}
+.progress{
+    /*position: absolute;*/
+    height: 10px;
+    width: 30%;
+    border: 10px solid #f4a261;
+    border-radius: 15px;
+    background-color:inherit;
+    margin-top: 400px;
+}
+.progress .color{
+    background-color: #ffffff;
+    width: 5px;
+    height: 10px;
+    border-radius: 15px;
+    animation: progres 4s infinite linear;
+}
+@keyframes progres{
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 75%;
+
+    }
+    75%{
+        width: 85%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    background-color: lightpink;
+    border-radius: 50%;
+    box-shadow:gray;
+    overflow: hidden;
+    animation:Animation 2s linear infinite;
+    animation-delay: 2s;
+}
+
+.segment{
+    background-color: deeppink;
+
+    height: 150px;
+    width: 150px;
+}
+@keyframes Animation {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

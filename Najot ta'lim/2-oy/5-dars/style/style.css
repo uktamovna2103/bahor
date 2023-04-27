@@ -1,0 +1,28 @@
+.container{
+    background-color: purple;
+    height: 600px;
+}
+
+.h2{
+    width: 250px;
+    height: 50px;
+    padding-top: 2px;
+    padding-left: 25px;
+    color: #b3d7ff;
+    margin-left: 400px;
+    background-color:#FFFFFF;
+    border: 2px solid #b3d7ff;
+    border-radius: 20px;
+}
+.card{
+    width: 800px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 50px;
+    color: #0056b3;
+    border-radius: 20px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}

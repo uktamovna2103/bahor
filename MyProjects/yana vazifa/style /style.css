@@ -1,0 +1,105 @@
+.progress1{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    animation-name: progres1;
+    animation-duration: 1s;
+    border-radius: 50px;
+    margin-left: 30%;
+    margin-top: 20%;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes progres1 {
+    0%{
+        left: 0;
+        width: 500px;
+
+
+    }
+    100%{
+        left: 500px;
+
+    }
+}
+
+
+.progress2{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: relative;
+    animation-name: progres2;
+    animation-duration:1s;
+    border-radius: 50px;
+    margin-left: 30%;
+    margin-top: 5%;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+@keyframes progres2 {
+    0%{
+        left: 0;
+        width: 500px;
+        /*background-color: green;*/
+
+    }
+    100%{
+        left: 500px;
+        /*background-color: dodgerblue;*/
+    }
+}
+
+.progress3{
+    width: 50px;
+    height: 50px;
+    background-color:dodgerblue;
+    position: absolute;
+    animation-name: progres3;
+    animation-duration: 1s;
+    border-radius: 50px;
+    margin-left: 40%;
+    margin-top: 1%;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes progres3 {
+    0%{
+        top: 0;
+        height: 500px;
+        /*background-color:mediumpurple;*/
+
+    }
+    100%{
+        top: 500px;
+        /*background-color: purple;*/
+    }
+}
+
+
+.progress4{
+    width: 50px;
+    height: 50px;
+    background-color:green;
+    position: absolute;
+    animation-name: progres4;
+    animation-duration: 1s;
+    border-radius: 50px;
+    margin-left: 50%;
+    margin-top: 1%;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes progres4{
+    0%{
+        top: 0;
+        height: 500px;
+        /*background-color:mediumpurple;*/
+
+    }
+    100%{
+        top: 500px;
+        /*background-color: purple;*/
+    }
+}

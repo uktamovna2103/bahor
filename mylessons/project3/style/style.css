@@ -1,0 +1,288 @@
+.container1{
+    height: 1300px;
+}
+
+
+.container1 .course{
+    /*background-color: red;*/
+   margin-top: 5px;
+    margin-left:-1100px;
+}
+.container1 .line{
+    position: absolute;
+    left:165px;
+    width: 1111px;
+    height: 2px;
+    top: 100px;
+    /*bottom: 0%;*/
+
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    border: 1px solid #979797;
+}
+.container1 .row .col-8 img{
+    width: 730px;
+    height: 392px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.col-8 p{
+    position: absolute;
+    width: 730px;
+    height: 112px;
+    left: 110px;
+    top: 520px;
+    font-size: 16px;
+    line-height: 33px;
+    color: #2F2F2F;
+}
+.col-8 h3{
+   margin-top: 200px;
+    margin-left: 100px;
+}
+.container1 .card1{
+    width: 400px;
+    height: 300px;
+    margin-left: 140px;
+    margin-top: 100px;
+    border-radius:1px;
+}
+.container1 .card2{
+    /*background-color:beige;*/
+    width: 400px;
+    height: 300px;
+    margin-left: 140px;
+    /*margin-top: 100px;*/
+    border-radius:1px;
+}
+.container1 .div{
+    background-color:white;
+    width: 400px;
+    height: 80px;
+    margin-left: 140px;
+    /*margin-top: 1px;*/
+    border-radius:1px;
+}
+.container1 .div .col-2 img{
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.container1 .div .col-3 img{
+    width: 70px;
+    margin-left: 30px;
+    margin-top: 28px;
+}
+.container1 .div .col1 img{
+    width: 25px;
+    margin-left: 1px;
+    margin-top: 28px;
+}
+.container1 .div .col2 img{
+    width: 25px;
+    margin-left: -35px;
+    margin-top: 28px;
+}
+
+.container1 .card1 .col-3 img{
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container1 .square{
+    width: 400px;
+    height: 1px;
+    margin-top: 20px;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    border: 1px solid #979797;
+}
+.container1 .card1 h2{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: -0.833333px;
+    color: #2F2F2F;
+
+}
+.container1 .row5 img{
+    width: 20px;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.container1 .row6 img{
+    width: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.container1 .card2 .container {
+    display: block;
+    position: relative;
+    padding-left:70px;
+    /*margin-top: 2px;*/
+    padding-top: 10px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    font-size: 22px;
+    background-color:#F8F8FA;
+    height: 60px;
+
+}
+
+/* Hide the browser's default checkbox */
+.container1 .card2 .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.container1 .card2 .checkmark {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    /*padding-top: 10px;*/
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    /*background-color: #2196F3;*/
+    background-color: white;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container1 .card2 .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container1 .card2 .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    /*transform: rotate(45deg);*/
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.container1 .card2 .Button2{
+    width: 400px;
+    height: 65px;
+    color: white;
+    background-color: #63C19C;
+    border-radius: 1px;
+}
+.container1 .card2 .Button2:hover{
+    box-shadow: 3px 4px 1px 1px lightsteelblue;
+    /*opacity:0.3;*/
+}
+.container1 .col-8 .col-md-8{
+    margin-left: 100px;
+    /*background-color: red;*/
+    height: 200px;
+}
+.container1 .col-8 .col-md-8 .row10 p{
+    color: black;
+    margin-top: -460px;
+    margin-left: -100px;
+
+}
+.container1 .col-8 .City1 .col-3 img{
+    width: 65px;
+    height: 20px;
+    margin-left: 400px;
+    margin-top: -90px;
+}
+.container1 .col-8 .Row button{
+    height: 50px;
+    border: none;
+    width: 210px;
+    /*width: 100px;*/
+}
+.container1 .col-8 .City1{
+    height: 70px;
+    display: none;
+}
+
+
+
+.container2{
+    height: 400px;
+    background-color:#F2F2F2;
+}
+.container2 .col-3 h4{
+    margin-top: 70px;
+    margin-left: 170px;
+}
+.container2 .col-3 ul{
+    margin-top: -10px;
+    margin-left: 125px;
+    font-weight: 90;
+    font-size:14px;
+    /*padding-bottom:10px;*/
+    color: #6C6C6C;
+    list-style-type: none;
+}
+.container2 .col-2 h4{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.container2 .col-2 ul{
+    margin-top: -10px;
+    margin-left:10px;
+    font-weight: 90;
+    font-size:14px;
+    color: #6C6C6C;
+    list-style-type: none;
+}
+
+.container2 .col3 h5{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.container2 .col3 ul{
+    margin-top: -10px;
+    margin-left:10px;
+    font-weight: 90;
+    font-size:14px;
+    color: #6C6C6C;
+    list-style-type: none;
+}
+.container2 .col-4 h4{
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+
+}
+.container2 .col-4 ul{
+    margin-top: -10px;
+    margin-left:-35px;
+    font-weight: 90;
+    /*font-size:18px;*/
+    color: #6C6C6C;
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 24px;
+}
+

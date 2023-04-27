@@ -1,0 +1,66 @@
+.card1{
+    width: 350px;
+    height: 450px;
+    top: 100px;
+
+    /* white */
+
+    background: #FFFFFF;
+    /* blue shadow 2 */
+
+    box-shadow: 1px 4px 20px rgba(1, 102, 145, 0.1);
+    border-radius: 4px;
+}
+.card-body h5{
+    position: absolute;
+    width: 291px;
+    height: 63px;
+    color: black;
+    /*left: 197px;*/
+    /*top: 724px;*/
+
+    font-family:"Candara Light";
+    font-size: 18px;
+    /*line-height: 21px;*/
+
+    /* black */
+
+    color: #2E2E2E;
+
+}
+
+button{
+    box-sizing: border-box;
+    width: 42px;
+    height: 42px;
+    /*left: 441px;*/
+    /*top: 846px;*/
+
+    opacity: 0.4;
+    border: 1px solid #9DA7BB;
+}
+.text-row  p  {
+    font-size: 12px;
+    color: #9DA7BB;
+}
+.text-row h4 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #2E2E2E;
+}
+/*.text-row button{*/
+/*    margin-right: 1000px;*/
+/*}*/
+/*.col-md-4 button{*/
+/*    margin-right: 300px;*/
+/*}*/
+
+.last{
+    margin-top: 100px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 450px;
+    top: 100px;
+    border: 1px dashed #9DA7BB;
+    border-radius: 4px;
+}
